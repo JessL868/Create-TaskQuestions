@@ -88,6 +88,7 @@ function insertText(inputContent, type) {
   DOMSelect.inputbox.style.display = "none";
   DOMSelect.settings.style.display = "";
 }
+//algorithm
 
 function textColor() {
   document.querySelector("body").style.color = `${DOMSelect.textcolor.value}`;
